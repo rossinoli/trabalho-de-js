@@ -26,6 +26,21 @@ const meusNumeros = [1, 2, 3, 4, 5, 6, 7, 8];
 const resultado = filtrarNumerosPares(meusNumeros);
 console.log(resultado); // Saída: [2, 4, 6, 8]
 ```
+* **como funciona:**
+  1. a função filtrarnumeroPares recebe um array de numeros .
+  2. o metodo filter itera sobre cada elemento do array.
+  3. para cada elemento, a função de teste numero  % 2 === 0 verifica se o numero é par.
+  4. se numero for par, ele é adicionado ao novo array.
+  5. o novo array com numeros pares é restornado pela função.
+
+  * **Aplicações:**
+     - *processamento de dados:* filtrar dados com base em criterios especificos.
+     - *validação de dados:* verifica se o dados de entrada estão no formato correto.
+     - *manipulação de array:* criar novo arrays com base em um array existente.
+   
+  * **Observação:**
+    - este exercicio ultiliza uma abordagem funcional, utilizando o metodo filter para resolver o problema de forma concisa e elegante.
+    - é possivel resolver o mesmo problema utilizando um loop for ou while, mas a abordagem com filter  é geralmente considerada mais concisa e facil de entender.
 
   
 - [ ] Exercício 2: Manipulação Avançada de Objetos: Dado um array de objetos onde cada objeto representa um aluno com propriedades `nome`, `nota1` e `nota2`, escreva uma função que adicione a cada objeto uma nova propriedade chamada `media`, que deve ser a média das notas do aluno. Depois, a função deve retornar o nome do aluno com a maior média.
