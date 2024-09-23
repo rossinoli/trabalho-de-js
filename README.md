@@ -5,6 +5,15 @@
   - crie uma função em javascript que recebe um array de numeros como entrada e retorna um novo array contendo apenas os numeros pares.
 
 * **Solução:**
+
+```
+function filtrarNumerosPares(numeros) {
+  // Filtra os números pares usando o método filter
+  const numerosPares = numeros.filter(numero => numero % 2 === 0);
+  return numerosPares;
+}
+```
+  
 - [ ] Exercício 2: Manipulação Avançada de Objetos: Dado um array de objetos onde cada objeto representa um aluno com propriedades `nome`, `nota1` e `nota2`, escreva uma função que adicione a cada objeto uma nova propriedade chamada `media`, que deve ser a média das notas do aluno. Depois, a função deve retornar o nome do aluno com a maior média.
 - [ ] Exercício 3: Máximo Divisor Comum (MDC): Escreva uma função que recebe dois números inteiros positivos e retorna o Máximo Divisor Comum (MDC) entre eles.
 - [ ] Exercício 4: Contagem Regressiva: Escreva um script que imprima uma contagem regressiva de 10 até 1 e depois imprima "Feliz Pascoa!"
