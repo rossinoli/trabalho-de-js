@@ -13,4 +13,4 @@
 - [ ] Exercício 12: `getElementsByTagName` e Texto: Insira vários elementos `<p>` em sua página. Use `getElementsByTagName` para alterar o texto do último parágrafo ao clique do mouse.
 - [ ] Exercício 13: Selecionando o Primeiro Elemento com `querySelector`: Adicione à sua página HTML um elemento com a classe "primeiro-item". Use `querySelector` para selecionar este elemento e altere seu texto para "Este é o primeiro item selecionado"
 - [ ] Exercício 14: `querySelector` com Seletor Complexo: Suponha que sua página contenha uma lista não ordenada (`<ul>`) com itens (`<li>`) dentro. Cada item tem uma classe "item-lista". Utilize `querySelector` para alterar o texto do primeiro item da lista que tenha a classe "item-lista".
-- [ ] Exercício 15: `querySelectorAll` e Loop: Utilize `querySelectorAll` para selecionar todos os elementos com a classe "multiplo". Então, percorra esses elementos com um loop e altere a cor de fundo de cada um
+- [ ] Exercício 15: `querySelectorAll` e Loop: Utilize `querySelectorAll` para selecionar todos os elementos com a classe "multiplo". Então, percorra esses elementos com um loop e altere a cor de fundo de cada um.
