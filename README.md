@@ -1,16 +1,4 @@
 # trabalho-de-js
-## Observação
-- projeto pode ser feito em vez do reduce por for ficaria assim
-´´´´
-  for (let i = 0; i < alunos.length; i++) {
-    const aluno = alunos[i];
-    aluno.media = (aluno.nota1 + aluno.nota2) / 2;
-
-    if (aluno.media > melhorAluno.media) {
-      melhorAluno = aluno;
-    }
-  }
-´´´´
 - [x] Exercício 1  **Manipulando Arrays: Crie uma função que receba um array de números e retorne um novo array contendo apenas os números pares.**
 - [ ] Exercício 2: Manipulação Avançada de Objetos: Dado um array de objetos onde cada objeto representa um aluno com propriedades `nome`, `nota1` e `nota2`, escreva uma função que adicione a cada objeto uma nova propriedade chamada `media`, que deve ser a média das notas do aluno. Depois, a função deve retornar o nome do aluno com a maior média.
 - [ ] Exercício 3: Máximo Divisor Comum (MDC): Escreva uma função que recebe dois números inteiros positivos e retorna o Máximo Divisor Comum (MDC) entre eles.
