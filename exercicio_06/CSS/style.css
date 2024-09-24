@@ -1,0 +1,10 @@
+body{
+    font-size: 50px;
+}
+
+.notaA { color: green; }
+.notaB { color: lightgreen; }
+.notaC { color: yellow; }
+.notaD { color: orange; }
+.notaE { color: red; }
+.notaF { color: darkred; }
