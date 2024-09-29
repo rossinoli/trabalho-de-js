@@ -1,17 +1,21 @@
-function verificarPrimo(numero) {
-  if (numero <= 1) return false; // Números menores ou iguais a 1 não são primos
-  for (let i = 2; i <= Math.sqrt(numero); i++) {
-      if (numero % i === 0) return false; 
+// Função que verifica se um número é primo.
+function isPrimo(numero) {
+  if (numero <= 1) {
+    return false;
   }
-  return true; // Se passou por todos os testes sem encontrar divisores, é primo
+  for (let i = 2; i <= Math.sqrt(numero); i++) {
+    if (numero % i === 0) {
+      return false;
+    }
+  }
+  return true;
 }
 
-function verificarNumero() {
+// Função que solicita um número ao usuário, verifica se é primo e exibe o resultado.
+function verificarEExibirPrimo() {
   const numero = parseInt(prompt("Digite um número:"));
-  const resultado = verificarPrimo(numero);
-  const resultadoElemento = document.getElementById("resultado");
-  resultadoElemento.textContent = resultado; 
+  const resultado = isPrimo(numero);
+  document.getElementById("resultado").textContent = resultado;
 }
 
-
-verificarNumero();
+verificarEExibirPrimo();
