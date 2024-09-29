@@ -1,9 +1,9 @@
-// Seleciona o elemento div e define a cor inicial como azul.
 const cor = document.getElementById("div");
 let corAtual = "blue"; 
 
-// Adiciona um ouvinte de evento para alternar a cor do elemento quando clicado.
+
 cor.addEventListener("click", function() {
+  // Alternar entre as cores
   if (corAtual === "blue") {
     cor.style.backgroundColor = "green";
     corAtual = "green";

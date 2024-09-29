@@ -1,4 +1,3 @@
-// Função que alterna a classe "destaque-vermelho" em elementos com a classe "destaque".
 function alterarCor() {
   const elementosDestaque = document.getElementsByClassName("destaque");
 

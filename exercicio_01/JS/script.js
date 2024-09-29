@@ -1,17 +1,20 @@
+    // Solicita a entrada do usuário
+    const inputNumeros = prompt ("Digite os números separados por vírgula:");
 function filtrar() {
-  // Solicita a entrada do usuário e verifica se foi fornecido algum valor
-  const inputNumeros = prompt("Digite os números separados por vírgula:");
-  if (!inputNumeros) {
-    alert("Por favor, digite alguns números.");
-    return;
-  }
 
-  // Converte a entrada em um array de números
-  const numeros = inputNumeros.split(',').map(Number);
+    // Verifica se o usuário inseriu algum valor
+    if (!inputNumeros) {
+        alert("Por favor, digite alguns números.");
+        return;
+    }
 
-  // Filtra os números pares
-  const numerosPares = numeros.filter(numero => numero % 2 === 0);
+    // Separa os números em um array
+    const numeros = inputNumeros.split(',').map(Number);
 
-  // Exibe o resultado no elemento com o ID "resultado"
-  document.getElementById('resultado').textContent = `Os números pares são: ${numerosPares.join(', ')}`;
+    // Filtra os números pares
+    const numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+    // Exibe o resultado
+    const resultadoElement = document.getElementById('resultado');
+    resultadoElement.textContent = `Os números pares são: ${numerosPares.join(', ')}`;
 }
