@@ -1,7 +1,9 @@
+// Função para exibir uma contagem regressiva de 10 segundos até "Feliz Páscoa!".
 function contagemRegressiva() {
   const contador = document.getElementById('contador');
   let numero = 10;
 
+  // Atualiza o contador a cada segundo.
   const intervalo = setInterval(() => {
     contador.textContent = numero;
     numero--;
@@ -10,7 +12,7 @@ function contagemRegressiva() {
       clearInterval(intervalo);
       contador.textContent = "Feliz Páscoa!";
     }
-  }, 1000); // A cada 1000 milissegundos (1 segundo)
+  }, 1000); 
 }
-
+// Inicia a contagem regressiva.
 contagemRegressiva();
