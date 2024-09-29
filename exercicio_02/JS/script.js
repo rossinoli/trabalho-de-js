@@ -12,7 +12,9 @@ function encontrarMelhorAluno(alunos) {
     aluno.media = (aluno.nota1 + aluno.nota2) / 2;
   });
 
-  // Encontra o aluno com a maior média.
+  // Encontra o aluno com a maior média. 
+  // Usando reduce para melhor concisão e legibilidade.
+  // Uma alternativa com laço 'for' seria menos eficiente e legível nesse caso.
   const melhorAluno = alunos.reduce((melhor, atual) => {
     return atual.media > melhor.media ? atual : melhor;
   });
