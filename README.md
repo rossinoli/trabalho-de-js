@@ -14,12 +14,22 @@
 - [x] Exercício 13: Selecionando o Primeiro Elemento com `querySelector`: Adicione à sua página HTML um elemento com a classe "primeiro-item". Use `querySelector` para selecionar este elemento e altere seu texto para "Este é o primeiro item selecionado"
 - [x] Exercício 14: `querySelector` com Seletor Complexo: Suponha que sua página contenha uma lista não ordenada (`<ul>`) com itens (`<li>`) dentro. Cada item tem uma classe "item-lista". Utilize `querySelector` para alterar o texto do primeiro item da lista que tenha a classe "item-lista".
 - [x] Exercício 15: `querySelectorAll` e Loop: Utilize `querySelectorAll` para selecionar todos os elementos com a classe "multiplo". Então, percorra esses elementos com um loop e altere a cor de fundo de cada um.
-- [ ] Exercício 16:
-- [ ] Exercício 17:
-- [ ] Exercício 18:
-- [ ] Exercício 19:
-- [ ] Exercício 20:
-- [ ] Exercício 21:
-- [ ] Exercício 22:
-- [ ] Exercício 23:
-- [ ] Exercício 24:
+- [ ] Exercício 16:Inverter um Array: Crie uma função que recebe um array como argumento e retorna
+um novo array, mas com os elementos na ordem inversa.
+- [ ] Exercício 17:Encontrar o Maior Número: Escreva uma função que recebe um array de números
+e retorna o maior valor encontrado.
+- [ ] Exercício 18: Filtrar Nomes por Letra: Desenvolva uma função que recebe um array de nomes e
+uma letra inicial, e retorna um novo array contendo apenas os nomes que começam com a letra
+especificada
+- [ ] Exercício 19:Somar Todos os Números: Crie uma função que recebe um array de números e
+retorna a soma de todos os números desse array usando o método reduce
+- [ ] Exercício 20:Contar Ocorrências de um Elemento: Implemente uma função que recebe um array
+e um elemento específico, e retorna o número de vezes que esse elemento aparece no array.
+- [ ] Exercício 21:Remover Duplicatas: Desenvolva uma função que recebe um array e retorna um
+novo array onde todas as duplicatas foram removidas.
+- [ ] Exercício 22:Classificar por Comprimento de String: Escreva uma função que recebe um array de
+strings e retorna um array das strings ordenadas por comprimento, do menor para o maior.
+- [ ] Exercício 23:Transformar Todos os Elementos: Crie uma função que recebe um array de números
+e retorna um novo array onde cada número é multiplicado por 2. Use o método map.
+- [ ] Exercício 24:Encontrar Elementos Comuns: Implemente uma função que recebe dois arrays e
+retorna um array que contém apenas os elementos que são comuns a ambos.
