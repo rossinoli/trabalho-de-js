@@ -14,7 +14,7 @@
 - [x] Exercício 13: Selecionando o Primeiro Elemento com `querySelector`: Adicione à sua página HTML um elemento com a classe "primeiro-item". Use `querySelector` para selecionar este elemento e altere seu texto para "Este é o primeiro item selecionado"
 - [x] Exercício 14: `querySelector` com Seletor Complexo: Suponha que sua página contenha uma lista não ordenada (`<ul>`) com itens (`<li>`) dentro. Cada item tem uma classe "item-lista". Utilize `querySelector` para alterar o texto do primeiro item da lista que tenha a classe "item-lista".
 - [x] Exercício 15: `querySelectorAll` e Loop: Utilize `querySelectorAll` para selecionar todos os elementos com a classe "multiplo". Então, percorra esses elementos com um loop e altere a cor de fundo de cada um.
-- [ ] Exercício 16:Inverter um Array: Crie uma função que recebe um array como argumento e retorna
+- [x] Exercício 16:Inverter um Array: Crie uma função que recebe um array como argumento e retorna
 um novo array, mas com os elementos na ordem inversa.
 - [ ] Exercício 17:Encontrar o Maior Número: Escreva uma função que recebe um array de números
 e retorna o maior valor encontrado.
