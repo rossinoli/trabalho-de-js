@@ -31,5 +31,5 @@ novo array onde todas as duplicatas foram removidas.
 strings e retorna um array das strings ordenadas por comprimento, do menor para o maior.
 - [x] Exercício 23:Transformar Todos os Elementos: Crie uma função que recebe um array de números
 e retorna um novo array onde cada número é multiplicado por 2. Use o método map.
-- [ ] Exercício 24:Encontrar Elementos Comuns: Implemente uma função que recebe dois arrays e
+- [x] Exercício 24:Encontrar Elementos Comuns: Implemente uma função que recebe dois arrays e
 retorna um array que contém apenas os elementos que são comuns a ambos.
