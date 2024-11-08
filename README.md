@@ -16,7 +16,7 @@
 - [x] Exercício 15: `querySelectorAll` e Loop: Utilize `querySelectorAll` para selecionar todos os elementos com a classe "multiplo". Então, percorra esses elementos com um loop e altere a cor de fundo de cada um.
 - [x] Exercício 16:Inverter um Array: Crie uma função que recebe um array como argumento e retorna
 um novo array, mas com os elementos na ordem inversa.
-- [ ] Exercício 17:Encontrar o Maior Número: Escreva uma função que recebe um array de números
+- [x] Exercício 17:Encontrar o Maior Número: Escreva uma função que recebe um array de números
 e retorna o maior valor encontrado.
 - [ ] Exercício 18: Filtrar Nomes por Letra: Desenvolva uma função que recebe um array de nomes e
 uma letra inicial, e retorna um novo array contendo apenas os nomes que começam com a letra
