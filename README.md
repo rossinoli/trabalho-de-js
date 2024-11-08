@@ -18,7 +18,7 @@
 um novo array, mas com os elementos na ordem inversa.
 - [x] Exercício 17:Encontrar o Maior Número: Escreva uma função que recebe um array de números
 e retorna o maior valor encontrado.
-- [ ] Exercício 18: Filtrar Nomes por Letra: Desenvolva uma função que recebe um array de nomes e
+- [x] Exercício 18: Filtrar Nomes por Letra: Desenvolva uma função que recebe um array de nomes e
 uma letra inicial, e retorna um novo array contendo apenas os nomes que começam com a letra
 especificada
 - [ ] Exercício 19:Somar Todos os Números: Crie uma função que recebe um array de números e
