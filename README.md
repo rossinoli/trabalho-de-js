@@ -25,7 +25,7 @@ especificada
 retorna a soma de todos os números desse array usando o método reduce
 - [X] Exercício 20:Contar Ocorrências de um Elemento: Implemente uma função que recebe um array
 e um elemento específico, e retorna o número de vezes que esse elemento aparece no array.
-- [ ] Exercício 21:Remover Duplicatas: Desenvolva uma função que recebe um array e retorna um
+- [x] Exercício 21:Remover Duplicatas: Desenvolva uma função que recebe um array e retorna um
 novo array onde todas as duplicatas foram removidas.
 - [ ] Exercício 22:Classificar por Comprimento de String: Escreva uma função que recebe um array de
 strings e retorna um array das strings ordenadas por comprimento, do menor para o maior.
