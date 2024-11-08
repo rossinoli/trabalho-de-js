@@ -23,7 +23,7 @@ uma letra inicial, e retorna um novo array contendo apenas os nomes que começam
 especificada
 - [x] Exercício 19:Somar Todos os Números: Crie uma função que recebe um array de números e
 retorna a soma de todos os números desse array usando o método reduce
-- [ ] Exercício 20:Contar Ocorrências de um Elemento: Implemente uma função que recebe um array
+- [X] Exercício 20:Contar Ocorrências de um Elemento: Implemente uma função que recebe um array
 e um elemento específico, e retorna o número de vezes que esse elemento aparece no array.
 - [ ] Exercício 21:Remover Duplicatas: Desenvolva uma função que recebe um array e retorna um
 novo array onde todas as duplicatas foram removidas.
