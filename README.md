@@ -21,7 +21,7 @@ e retorna o maior valor encontrado.
 - [x] Exercício 18: Filtrar Nomes por Letra: Desenvolva uma função que recebe um array de nomes e
 uma letra inicial, e retorna um novo array contendo apenas os nomes que começam com a letra
 especificada
-- [ ] Exercício 19:Somar Todos os Números: Crie uma função que recebe um array de números e
+- [x] Exercício 19:Somar Todos os Números: Crie uma função que recebe um array de números e
 retorna a soma de todos os números desse array usando o método reduce
 - [ ] Exercício 20:Contar Ocorrências de um Elemento: Implemente uma função que recebe um array
 e um elemento específico, e retorna o número de vezes que esse elemento aparece no array.
